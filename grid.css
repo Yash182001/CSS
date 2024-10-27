@@ -1,0 +1,83 @@
+.grid-container {
+    display: grid;
+    margin: 10%;
+    background-color:gray;
+    padding: 10px;
+}
+  
+.grid-item {
+    background-color: gray;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  .item2 {
+    grid-column: 3;
+    grid-row: 1 / span 5;
+    background-color: white;
+   
+  }
+  
+  .item5 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    border-style: none;
+  }
+
+  .item3{
+    grid-column: 1 / span 2;
+    grid-row: 2;
+
+  }
+
+  .item4{
+    grid-column: 1/ span 2;
+    grid-row: 4;
+  }
+
+  .item6{
+    grid-column: 1 / span 2;
+    grid-row: 5;
+  }
+  
+  .item7{
+    grid-column: 1 / span 3;
+    grid-row: 7;
+    border-radius: 25px;    
+  }
+
+  .item8{
+    font-size: small;
+    grid-row: 5 / 6 ;
+  }
+
+  .item8{
+    grid-column: 3 ;
+    grid-row: 6 / span 1;
+    background-color: white;
+  }
+
+  input[type=text]
+  {
+    border: none;
+    text-decoration: underline;
+    width: 600px;
+  }
+
+  input[type=password]
+  {
+    border: none;
+    text-decoration: underline;
+    width: 600px;
+  }
+
+  .item9{
+    grid-column: 1 / span 2;
+    grid-row: 6;
+    font-size: small;
+  }

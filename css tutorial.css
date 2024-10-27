@@ -1,0 +1,58 @@
+.all{
+    border: 1px solid black;
+    
+}
+
+.bottom{
+    border-bottom: 2px solid green;
+}
+
+.round{
+    
+    border-color: red green blue yellow;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.inherit{
+    border: 1px solid red;
+  margin-left: 100px;
+
+}
+
+p.ex1{
+    margin-left: inherit;
+}
+
+.outline-offset{
+    margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 25px;
+}
+
+a{
+    background-color: grey;
+         padding: 20px;
+         text-align: center;
+         display: inline-block;
+}
+a:link{
+         color: red; /* for not-visited links*/
+         background-color: grey;
+         
+}
+
+a:visited{
+    color:blue; /*for visited links*/
+    background-color: black;
+}
+
+a:hover{
+    color: hotpink; /*when hovered color changes*/
+}
+
+a:active{
+    color:green; /*when clicked color changes*/
+}
